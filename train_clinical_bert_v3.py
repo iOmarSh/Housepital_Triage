@@ -33,7 +33,7 @@ warnings.filterwarnings('ignore')
 CONFIG = {
     "model_name": "emilyalsentzer/Bio_ClinicalBERT",
     "num_labels": 4,
-    "data_path": "triage_dataset_30k.csv",
+    "data_path": "triage_dataset_realistic.csv",
     "max_length": 128,
     "test_size": 0.15,
     "val_size": 0.15,
